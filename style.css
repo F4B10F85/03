@@ -78,7 +78,7 @@ body {
 
 .hero h1 {
   font-family: "Playfair Display", serif;
-  font-size: 44px;
+  font-size: 38px;
   color: var(--accent-dark);
   margin-bottom: 18px;
 }
@@ -139,7 +139,7 @@ body {
 
 .page h1 {
   font-family: "Playfair Display", serif;
-  font-size: 38px;
+  font-size: 34px;
   color: var(--accent-dark);
   margin-bottom: 28px;
 }
