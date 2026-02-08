@@ -1,0 +1,18 @@
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:Inter,Arial,sans-serif;background:#f7f3ef;color:#2b2b2b;line-height:1.6;}
+.header{display:flex;justify-content:space-between;align-items:center;padding:16px 48px;background:#ffffff;position:sticky;top:0;box-shadow:0 2px 10px rgba(0,0,0,0.05);}
+.logo{font-weight:700;font-size:22px;color:#6b4f2c;}
+.header a{margin-left:24px;text-decoration:none;color:#2b2b2b;font-weight:500;}
+.hero{height:80vh;background:url('hero.jpg') center/cover no-repeat;display:flex;align-items:center;}
+.hero-overlay{background:rgba(255,255,255,0.75);padding:48px;max-width:640px;margin-left:64px;border-radius:12px;}
+.hero h1{font-size:40px;color:#3b2a1a;margin-bottom:16px;}
+.hero p{font-size:18px;margin-bottom:24px;}
+.btn-primary{display:inline-block;background:#6b4f2c;color:#fff;padding:14px 28px;border-radius:6px;text-decoration:none;font-weight:600;}
+.section{padding:64px;}
+.section h2{text-align:center;font-size:32px;margin-bottom:48px;color:#3b2a1a;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:32px;}
+.card{background:#ffffff;padding:32px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.05);}
+.page{padding:64px;}
+.page h1{font-size:36px;margin-bottom:24px;color:#3b2a1a;}
+.service-list li{margin-bottom:12px;font-size:18px;}
+footer{text-align:center;padding:24px;background:#ffffff;border-top:1px solid #eee;margin-top:64px;}
