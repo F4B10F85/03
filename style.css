@@ -303,3 +303,52 @@ footer {
   color: var(--text-muted);
   margin-top: 8px;
 }
+
+/* STATS PREMIUM BOX */
+.stats-box {
+  margin-top: 80px;
+  background: var(--bg-white);
+  border: 1px solid var(--border-soft);
+  border-radius: 18px;
+  padding: 48px;
+  text-align: center;
+}
+
+.stats-box h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  color: var(--accent-dark);
+  margin-bottom: 10px;
+}
+
+.stats-subtitle {
+  color: var(--text-muted);
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+}
+
+.stat-card {
+  background: var(--bg-main);
+  padding: 32px;
+  border-radius: 14px;
+  border: 1px solid var(--border-soft);
+}
+
+.stat-card span {
+  font-family: "Playfair Display", serif;
+  font-size: 46px;
+  font-weight: 700;
+  color: var(--accent-primary);
+}
+
+.stat-card p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: var(--text-muted);
+}
