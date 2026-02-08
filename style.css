@@ -69,10 +69,13 @@ body {
 }
 
 .hero-overlay {
-  padding: 120px 10%;
-  background: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.2));
-  color: white;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 64px;
+  max-width: 720px;
+  margin-left: 80px;
+  border-radius: 14px;
 }
+
 
 
 .hero h1 {
