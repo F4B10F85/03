@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Giulia Caldari - Business Consulting</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Google Fonts luxury -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <script>
@@ -38,6 +39,29 @@ function toggleMenu(){
 <p>Email: giulia.caldari@hotmail.ti</p>
 <p>Telefono: +39 333 11 22 334</p>
 </section>
+
+<section class="contact-hero">
+  <div class="contact-box">
+    <h1>Richiedi una consulenza riservata</h1>
+    <p>Compila il modulo per una valutazione preliminare. Ti risponderò entro 24 ore lavorative.</p>
+
+    <!-- FORM -->
+    <form action="https://formspree.io/f/TUO_ID" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Nome e Cognome" required>
+      <input type="email" name="email" placeholder="Email aziendale" required>
+      <input type="text" name="company" placeholder="Azienda">
+      <textarea name="message" placeholder="Descrivi brevemente la tua esigenza" required></textarea>
+
+      <button type="submit">Richiedi consulenza</button>
+    </form>
+
+    <p class="privacy-note">I dati saranno trattati in modo riservato. Nessuna condivisione con terzi.</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Giulia Caldari - Commercial Consulting
+</footer>
 
 </body>
 </html>
