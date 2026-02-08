@@ -362,3 +362,13 @@ footer {
   font-size: 16px;
   color: var(--text-muted);
 }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
