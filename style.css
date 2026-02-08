@@ -253,6 +253,17 @@ footer {
     padding: 32px;
   }
 
+.hero h1 {
+  letter-spacing: -0.5px;
+}
+
+.section h2 {
+  letter-spacing: -0.3px;
+}
+
+
+
+  
   .section, .page {
     padding: 64px 24px;
   }
