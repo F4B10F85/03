@@ -62,12 +62,17 @@ body {
 
 /* HERO */
 .hero {
-  height: auto;
-  min-height: 60vh;
-  background: url("hero_1.jpg") center/cover no-repeat;
-  display: flex;
-  align-items: center;
+  margin-top: 80px; /* se header è fixed */
+  text-align: center;
 }
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  max-height: 90vh; /* non esagerare */
+  object-fit: contain;
+}
+
 
 .hero-overlay {
   background: rgba(255, 255, 255, 0.85);
