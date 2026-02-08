@@ -352,3 +352,13 @@ footer {
   font-size: 15px;
   color: var(--text-muted);
 }
+.services-box .card h3 {
+  font-size: 20px;
+  color: var(--accent-dark);
+  margin-bottom: 10px;
+}
+
+.services-box .card p {
+  font-size: 16px;
+  color: var(--text-muted);
+}
