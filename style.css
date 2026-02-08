@@ -23,3 +23,10 @@ h1, h2, h3, .logo{
 .page h1{font-size:36px;margin-bottom:24px;color:#3b2a1a;}
 .service-list li{margin-bottom:12px;font-size:18px;}
 footer{text-align:center;padding:24px;background:#ffffff;border-top:1px solid #eee;margin-top:64px;}
+body{
+  letter-spacing:0.02em;
+}
+
+h1{
+  letter-spacing:0.01em;
+}
