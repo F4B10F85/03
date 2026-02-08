@@ -437,3 +437,60 @@ main {
     grid-template-columns: 1fr;
   }
 }
+.references-luxury {
+  background: #faf9f7; /* bianco caldo luxury */
+  text-align: center;
+}
+
+.references-luxury h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.references-subtitle {
+  max-width: 700px;
+  margin: 15px auto 50px auto;
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Griglia loghi luxury */
+.logo-grid-luxury {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  align-items: center;
+  justify-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.logo-grid-luxury img {
+  max-width: 220px;
+  max-height: 120px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.75;
+  transition: all 0.3s ease;
+}
+
+/* Hover premium */
+.logo-grid-luxury img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.05);
+}
+@media (max-width: 900px) {
+  .logo-grid-luxury {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo-grid-luxury {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
