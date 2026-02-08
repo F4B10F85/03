@@ -53,3 +53,39 @@ h1{
     padding:40px 16px;
   }
 }
+
+/* HAMBURGER */
+.hamburger{
+  display:none;
+  font-size:28px;
+  cursor:pointer;
+}
+
+/* Mobile menu */
+@media (max-width: 768px) {
+  .nav{
+    display:none;
+    position:absolute;
+    top:70px;
+    right:0;
+    background:#ffffff;
+    width:100%;
+    flex-direction:column;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+  }
+
+  .nav a{
+    padding:16px;
+    border-bottom:1px solid #eee;
+    display:block;
+  }
+
+  .hamburger{
+    display:block;
+  }
+
+  .nav.open{
+    display:flex;
+  }
+}
