@@ -63,7 +63,7 @@ body {
 /* HERO */
 .hero {
   min-height: 70vh;
-  background: url("../images/hero_1.jpg") top center / cover no-repeat;
+  background: url("hero_1.jpg") top center / cover no-repeat;
   display: flex;
   align-items: center;
 }
