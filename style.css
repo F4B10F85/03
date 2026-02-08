@@ -372,3 +372,11 @@ body {
 main {
   flex: 1;
 }
+
+footer {
+  overflow: auto;
+}
+
+footer {
+  display: flow-root;
+}
