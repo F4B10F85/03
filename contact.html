@@ -46,14 +46,25 @@ function toggleMenu(){
     <p>Compila il modulo per una valutazione preliminare. Ti risponderò entro 24 ore lavorative.</p>
 
     <!-- FORM -->
-    <form action="https://formspree.io/f/TUO_ID" method="POST" class="contact-form">
-      <input type="text" name="name" placeholder="Nome e Cognome" required>
-      <input type="email" name="email" placeholder="Email aziendale" required>
-      <input type="text" name="company" placeholder="Azienda">
-      <textarea name="message" placeholder="Descrivi brevemente la tua esigenza" required></textarea>
+  <form action="https://formspree.io/f/TUO_ID" method="POST" class="contact-form">
+  
+  <label>Nome e Cognome</label>
+  <input type="text" name="name" placeholder="Mario Rossi" required>
 
-      <button type="submit">Richiedi consulenza</button>
-    </form>
+  <label>Azienda</label>
+  <input type="text" name="company" placeholder="Rossi Srl">
+
+  <label>Email aziendale</label>
+  <input type="email" name="email" placeholder="m.rossi@azienda.it" required>
+
+  <label>Descrivi brevemente la tua esigenza</label>
+  <textarea name="message" placeholder="Es. sviluppo nuovi canali di vendita, ricerca clienti B2B..." required></textarea>
+
+  <button type="submit">Richiedi consulenza</button>
+
+  <input type="hidden" name="_next" value="thankyou.html">
+
+</form>
 
     <p class="privacy-note">I dati saranno trattati in modo riservato. Nessuna condivisione con terzi.</p>
   </div>
